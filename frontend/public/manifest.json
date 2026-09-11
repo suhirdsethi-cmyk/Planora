@@ -1,35 +1,38 @@
 {
+  "id": "/",
+  "scope": "/",
+  "start_url": "/",
   "short_name": "Planora",
   "name": "Planora — Smart Life Management",
   "description": "Everything you need to pay, plan and remember — in one place with AI trip generation and live weather forecasts.",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/icon-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "icon-192.png",
+      "src": "/icon-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "/icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "icon-512.png",
+      "src": "/icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
     }
   ],
-  "start_url": "/",
   "display": "standalone",
+  "display_override": ["standalone"],
   "theme_color": "#2563eb",
   "background_color": "#f8fafc",
   "orientation": "portrait"
