@@ -1,0 +1,401 @@
+{
+  "users": [
+    {
+      "id": "demo-user-123",
+      "email": "demo@lifemate.app",
+      "full_name": "Alex Morgan",
+      "currency": "INR",
+      "created_at": "2026-09-10T06:39:46.837Z"
+    }
+  ],
+  "bills": [
+    {
+      "id": "b-1",
+      "user_id": "demo-user-123",
+      "name": "Wi-Fi",
+      "amount": 825,
+      "category": "Wi-Fi",
+      "due_date": "2026-09-15",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "UPI / GPay",
+      "notes": "Airtel Broadband Fiber plan 200Mbps",
+      "reminder_date": "2026-09-14",
+      "status": "upcoming",
+      "created_at": "2026-09-10T06:39:46.837Z"
+    },
+    {
+      "id": "b-2",
+      "user_id": "demo-user-123",
+      "name": "Mobile Recharge",
+      "amount": 399,
+      "category": "Mobile recharge",
+      "due_date": "2026-09-20",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "Paytm",
+      "notes": "Jio 84 days pack installment",
+      "reminder_date": "2026-09-19",
+      "status": "upcoming",
+      "created_at": "2026-09-10T06:39:46.837Z"
+    },
+    {
+      "id": "b-3",
+      "user_id": "demo-user-123",
+      "name": "House Rent",
+      "amount": 15000,
+      "category": "Rent",
+      "due_date": "2026-09-01",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "Bank Transfer",
+      "notes": "Transfer to Landlord Account",
+      "status": "paid",
+      "last_paid_at": "2026-09-01T10:00:00.000Z",
+      "created_at": "2026-09-10T06:39:46.837Z"
+    },
+    {
+      "id": "b-4",
+      "user_id": "demo-user-123",
+      "name": "Netflix Subscription",
+      "amount": 649,
+      "category": "Subscription",
+      "due_date": "2026-09-25",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "Credit Card",
+      "notes": "4K Ultra HD Premium Plan",
+      "status": "upcoming",
+      "created_at": "2026-09-10T06:39:46.837Z"
+    },
+    {
+      "id": "b-5",
+      "user_id": "demo-user-123",
+      "name": "Electricity Bill",
+      "amount": 1250,
+      "category": "Electricity bill",
+      "due_date": "2026-09-10",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "Auto-debit / UPI",
+      "notes": "State Power Meter Account #49281",
+      "status": "paid",
+      "created_at": "2026-09-10T06:39:46.837Z",
+      "last_paid_at": "2026-09-10T06:58:49.172Z"
+    },
+    {
+      "id": "b-6",
+      "user_id": "demo-user-123",
+      "name": "HDFC Credit Card",
+      "amount": 12450,
+      "category": "Credit card",
+      "due_date": "2026-09-10",
+      "is_recurring": false,
+      "payment_method": "NetBanking",
+      "notes": "Minimum due ₹1,500. Total ₹12,450",
+      "status": "due_today",
+      "created_at": "2026-09-10T06:39:46.838Z"
+    },
+    {
+      "id": "b-8e53d151",
+      "user_id": "demo-user-123",
+      "name": "Electricity Bill",
+      "amount": 1250,
+      "category": "Electricity bill",
+      "due_date": "2026-10-10",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "Auto-debit / UPI",
+      "notes": "State Power Meter Account #49281",
+      "status": "upcoming",
+      "created_at": "2026-09-10T06:51:38.961Z"
+    },
+    {
+      "id": "b-9bd198e0",
+      "user_id": "demo-user-123",
+      "name": "Electricity Bill",
+      "amount": 1250,
+      "category": "Electricity bill",
+      "due_date": "2026-10-10",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "Auto-debit / UPI",
+      "notes": "State Power Meter Account #49281",
+      "status": "upcoming",
+      "created_at": "2026-09-10T06:58:37.375Z"
+    },
+    {
+      "id": "b-e3130457",
+      "user_id": "demo-user-123",
+      "name": "Electricity Bill",
+      "amount": 1250,
+      "category": "Electricity bill",
+      "due_date": "2026-10-10",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "Auto-debit / UPI",
+      "notes": "State Power Meter Account #49281",
+      "status": "upcoming",
+      "created_at": "2026-09-10T06:58:39.940Z"
+    },
+    {
+      "id": "b-b387d9d4",
+      "user_id": "demo-user-123",
+      "name": "Electricity Bill",
+      "amount": 1250,
+      "category": "Electricity bill",
+      "due_date": "2026-10-10",
+      "is_recurring": true,
+      "recurrence_frequency": "monthly",
+      "payment_method": "Auto-debit / UPI",
+      "notes": "State Power Meter Account #49281",
+      "status": "upcoming",
+      "created_at": "2026-09-10T06:58:49.172Z"
+    }
+  ],
+  "checklists": [
+    {
+      "id": "c-1",
+      "user_id": "demo-user-123",
+      "title": "Shimla Trip",
+      "description": "3-day family vacation checklist",
+      "category": "Travel",
+      "deadline": "2026-09-28",
+      "is_archived": false,
+      "is_ai_generated": true,
+      "created_at": "2026-09-10T06:39:46.838Z"
+    }
+  ],
+  "checklist_items": [
+    {
+      "id": "ci-1",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🧳 Packing",
+      "title": "Warm Clothes & Sweaters",
+      "is_completed": false,
+      "sort_order": 1
+    },
+    {
+      "id": "ci-2",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🧳 Packing",
+      "title": "Heavy Jacket",
+      "is_completed": true,
+      "sort_order": 2
+    },
+    {
+      "id": "ci-3",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🧳 Packing",
+      "title": "Comfortable Walking Shoes",
+      "is_completed": true,
+      "sort_order": 3
+    },
+    {
+      "id": "ci-4",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🧳 Packing",
+      "title": "Thermal Innerwear",
+      "is_completed": true,
+      "sort_order": 4
+    },
+    {
+      "id": "ci-5",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🧳 Packing",
+      "title": "Woolen Gloves & Cap",
+      "is_completed": false,
+      "sort_order": 5
+    },
+    {
+      "id": "ci-6",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "📄 Documents",
+      "title": "Aadhaar / Passport IDs",
+      "is_completed": true,
+      "sort_order": 6
+    },
+    {
+      "id": "ci-7",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "📄 Documents",
+      "title": "Driving Licence",
+      "is_completed": true,
+      "sort_order": 7
+    },
+    {
+      "id": "ci-8",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "📄 Documents",
+      "title": "Hotel Booking Vouchers",
+      "is_completed": true,
+      "sort_order": 8
+    },
+    {
+      "id": "ci-9",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🔌 Electronics",
+      "title": "Mobile Chargers & Cables",
+      "is_completed": true,
+      "sort_order": 9
+    },
+    {
+      "id": "ci-10",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🔌 Electronics",
+      "title": "20,000mAh Power Bank",
+      "is_completed": true,
+      "sort_order": 10
+    },
+    {
+      "id": "ci-11",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🔌 Electronics",
+      "title": "DSLR Camera & Extra Memory Card",
+      "is_completed": false,
+      "sort_order": 11
+    },
+    {
+      "id": "ci-12",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "💊 Personal & Health",
+      "title": "First Aid Kit & Motion Sickness Pills",
+      "is_completed": true,
+      "sort_order": 12
+    },
+    {
+      "id": "ci-13",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "💊 Personal & Health",
+      "title": "Regular Prescription Medicines",
+      "is_completed": true,
+      "sort_order": 13
+    },
+    {
+      "id": "ci-14",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "💊 Personal & Health",
+      "title": "Moisturizer & Cold Cream",
+      "is_completed": false,
+      "sort_order": 14
+    },
+    {
+      "id": "ci-15",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🚗 Car & Vehicle",
+      "title": "Check Vehicle Oil & Coolant",
+      "is_completed": true,
+      "sort_order": 15
+    },
+    {
+      "id": "ci-16",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🚗 Car & Vehicle",
+      "title": "Check Tyre Pressure & Spare Tyre",
+      "is_completed": false,
+      "sort_order": 16
+    },
+    {
+      "id": "ci-17",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🚗 Car & Vehicle",
+      "title": "FASTag Recharge",
+      "is_completed": false,
+      "sort_order": 17
+    },
+    {
+      "id": "ci-18",
+      "checklist_id": "c-1",
+      "user_id": "demo-user-123",
+      "category": "🚗 Car & Vehicle",
+      "title": "Car Cleaning & Wiper Fluid",
+      "is_completed": false,
+      "sort_order": 18
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t-1",
+      "user_id": "demo-user-123",
+      "title": "Buy medicines",
+      "description": "Paracetamol, vitamins and prescribed allergy pills",
+      "due_date": "2026-09-10",
+      "priority": "high",
+      "category": "Health",
+      "is_completed": true,
+      "created_at": "2026-09-10T06:39:46.838Z",
+      "completed_at": "2026-09-10T06:58:43.231Z"
+    },
+    {
+      "id": "t-2",
+      "user_id": "demo-user-123",
+      "title": "Call electrician for kitchen light",
+      "description": "Fix the flickering LED panel in main kitchen",
+      "due_date": "2026-09-10",
+      "priority": "medium",
+      "category": "Home",
+      "is_completed": false,
+      "created_at": "2026-09-10T06:39:46.838Z"
+    },
+    {
+      "id": "t-3",
+      "user_id": "demo-user-123",
+      "title": "Book resort for Shimla trip",
+      "description": "Confirm 2 rooms for 3 nights with breakfast inclusion",
+      "due_date": "2026-09-18",
+      "priority": "high",
+      "category": "Travel",
+      "is_completed": true,
+      "completed_at": "2026-09-10T06:39:46.838Z",
+      "created_at": "2026-09-10T06:39:46.838Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "r-1",
+      "user_id": "demo-user-123",
+      "title": "Renew car insurance",
+      "reminder_date": "2026-09-10",
+      "reminder_time": "18:00:00",
+      "repeat_frequency": "yearly",
+      "notes": "Policy #83921 renewal due before expiration",
+      "is_dismissed": false,
+      "created_at": "2026-09-10T06:39:46.838Z"
+    },
+    {
+      "id": "r-2",
+      "user_id": "demo-user-123",
+      "title": "Submit monthly expense report",
+      "reminder_date": "2026-09-28",
+      "reminder_time": "10:00:00",
+      "repeat_frequency": "monthly",
+      "notes": "Compile receipts for office reimbursement",
+      "is_dismissed": false,
+      "created_at": "2026-09-10T06:39:46.838Z"
+    }
+  ],
+  "settings": {
+    "user_id": "demo-user-123",
+    "currency": "INR",
+    "notifications_enabled": true,
+    "default_reminder_days": 1,
+    "appearance": "light"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "planora-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Planora - Everything you need to pay, plan and remember — in one place.",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
