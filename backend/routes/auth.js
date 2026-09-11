@@ -2,8 +2,8 @@ import express from 'express';
 import { OAuth2Client } from 'google-auth-library';
 import { db } from '../services/dbService.js';
 
-const router = express.Router();
-const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+const rawClientId = (process.env.GOOGLE_CLIENT_ID || '').trim().replace(/^["']|["']$/g, '');
+const googleClient = new OAuth2Client(rawClientId);
 
 // POST /api/auth/google - Authenticate with Google Credential Token
 router.post('/google', async (req, res) => {
@@ -17,10 +17,10 @@ router.post('/google', async (req, res) => {
     let payload;
 
     // Verify Google ID Token if GOOGLE_CLIENT_ID is provided
-    if (process.env.GOOGLE_CLIENT_ID && !process.env.GOOGLE_CLIENT_ID.includes('your-client-id')) {
+    if (rawClientId && !rawClientId.includes('your-client-id')) {
       const ticket = await googleClient.verifyIdToken({
         idToken: credential,
-        audience: process.env.GOOGLE_CLIENT_ID
+        audience: rawClientId
       });
       payload = ticket.getPayload();
     } else {
